@@ -51,7 +51,6 @@ void loader_add_server(load_balancer* main, int server_id, int cache_size);
  * Additionally, all the tasks stored in the removed server's queue
  * should be executed before moving the documents.
  */
-void loader_remove_server(load_balancer* main, int server_id);
 
 /**
  * loader_forward_request() - Forwards a request to the appropriate server.
